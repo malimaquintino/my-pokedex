@@ -1,0 +1,64 @@
+[
+    {
+        "id":"001", 
+        "name":"Bulbasaur",
+        "type":["Grass", "Poison"],
+        "weakness":["Fire", "Psychic", "Flaying", "Ice"]
+    }, 
+
+    {
+        "id":"002", 
+        "name":"Ivysaur",
+        "type":["Grass", "Poison"],
+        "weakness":["Fire", "Psychic", "Flaying", "Ice"]
+    },
+
+    {
+        "id":"003", 
+        "name":"Venusaur",
+        "type":["Grass", "Poison"],
+        "weakness":["Fire", "Psychic", "Flaying", "Ice"]
+    },
+
+    {
+        "id":"004", 
+        "name":"Charmander",
+        "type":["Fire"],
+        "weakness":["Water","Ground", "Rock"]
+    },
+
+    {
+        "id":"005", 
+        "name":"Charmeleon",
+        "type":["Fire"],
+        "weakness":["Water","Ground", "Rock"]
+    },
+
+    {
+        "id":"006", 
+        "name":"Charizard",
+        "type":["Fire", "Flaying"],
+        "weakness":["Water","Eletric", "Rock"]
+    },
+
+    {
+        "id":"007", 
+        "name":"Squirtle",
+        "type":["Water"],
+        "weakness":["Grass","Eletric"]
+    },
+
+    {
+        "id":"008", 
+        "name":"Wartortle",
+        "type":["Water"],
+        "weakness":["Grass","Eletric"]
+    },
+
+    {
+        "id":"009", 
+        "name":"Blastoise",
+        "type":["Water"],
+        "weakness":["Grass","Eletric"]
+    }
+]
