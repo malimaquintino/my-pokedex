@@ -6,29 +6,23 @@ function Pokecard({id, name, type, weakness, img}){
     let pokeImg = images(`./${id}.png`);
     return (
         <>
-            <div className="card">
-                <img alt={name} className="card__image" src={pokeImg} />
-                <p className="card__name">{name}</p>
-                <div className="grid-container">
+            <div className="pokemon-card-container">
+                <div className="pokemon-card">
+                    <div className="background">
+                        <img className="image" src={pokeImg}/>
+                    </div>
 
-                <div className="grid-child-posts">
-                    156 Post
+                    <div className="content">
+                        <h1 className="pokemon-name">{name}</h1>
+                        <span className="pokemon-type">Type</span>
+
+                        <div className="pokemon-stats">
+                            <p>Power: 100</p>
+                            <p>Demage: 100</p>
+                        </div>
+                    </div>
+
                 </div>
-
-                <div className="grid-child-followers">
-                    1012 Likes
-                </div>
-
-                </div>
-                <ul className="social-icons">
-                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i className="fa fa-codepen"></i></a></li>
-                </ul>
-                <button className="btn draw-border">Follow</button>
-                <button className="btn draw-border">Message</button>
-
             </div>
         </>
     )

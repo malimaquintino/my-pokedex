@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 import datainfo from '../../data/datainfo.json'
 import Pokecard from '../../components/pokecard'
-
+import './style.css'
 
 function Pokedex (){
 
@@ -10,7 +10,10 @@ function Pokedex (){
 
         <>
             <h1>Pokédex</h1>
-            { datainfo.map((item, i)=> <Pokecard key={i}  {...item}/>)}
+            <div className="container">
+                { datainfo.map((item, i)=> <Pokecard key={i}  {...item}/>)}
+            </div>
+            
         </>
     );
 }
