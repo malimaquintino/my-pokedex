@@ -3,62 +3,107 @@
         "id":"001", 
         "name":"Bulbasaur",
         "type":["Grass", "Poison"],
-        "weakness":["Fire", "Psychic", "Flaying", "Ice"]
+        "weakness":["Fire", "Psychic", "Flaying", "Ice"],
+        "cardcolor":{
+            "border":["#26903d","#2c7523"],
+            "bg":["#61856b","#45725c"],
+            "info":["#6b907d","#5e9066"]
+        }
     }, 
 
     {
         "id":"002", 
         "name":"Ivysaur",
         "type":["Grass", "Poison"],
-        "weakness":["Fire", "Psychic", "Flaying", "Ice"]
+        "weakness":["Fire", "Psychic", "Flaying", "Ice"],
+        "cardcolor":{
+            "border":["#26903d","#2c7523"],
+            "bg":["#8ac1c6","#427481"],
+            "info":["#80be93","#5e8373"]
+        }
     },
 
     {
         "id":"003", 
         "name":"Venusaur",
         "type":["Grass", "Poison"],
-        "weakness":["Fire", "Psychic", "Flaying", "Ice"]
+        "weakness":["Fire", "Psychic", "Flaying", "Ice"],
+        "cardcolor":{
+            "border":["#26903d","#2c7523"],
+            "bg":["#83b6b2","#3e7c81"],
+            "info":["#749f6f","#5d8457"]
+        }
     },
 
     {
         "id":"004", 
         "name":"Charmander",
         "type":["Fire"],
-        "weakness":["Water","Ground", "Rock"]
+        "weakness":["Water","Ground", "Rock"],
+        "cardcolor":{
+            "border":["#e2453a","#c30b0b"],
+            "bg":["#eaaa7d","#ba8a6a"],
+            "info":["#f5e8cf","#d8c8b3"]
+        }
     },
 
     {
         "id":"005", 
         "name":"Charmeleon",
         "type":["Fire"],
-        "weakness":["Water","Ground", "Rock"]
+        "weakness":["Water","Ground", "Rock"],
+        "cardcolor":{
+            "border":["#e2453a","#c30b0b"],
+            "bg":["#da7564","#bf4d3d"],
+            "info":["#e6cab8","#c2a596"]
+        }
     },
 
     {
         "id":"006", 
         "name":"Charizard",
         "type":["Fire", "Flaying"],
-        "weakness":["Water","Eletric", "Rock"]
+        "weakness":["Water","Eletric", "Rock"],
+        "cardcolor":{
+            "border":["#e2453a","#c30b0b"],
+            "bg":["#eca162","#cd8651"],
+            "info":["#f7e6ac","#d6c490"]
+        }
     },
 
     {
         "id":"007", 
         "name":"Squirtle",
         "type":["Water"],
-        "weakness":["Grass","Eletric"]
+        "weakness":["Grass","Eletric"],
+        "cardcolor":{
+            "border":["#7eb9e8","#2196F3"],
+            "bg":["#b4dae4","#8dc3d0"],
+            "info":["#e2d1b0","#dacbae"]
+        }
     },
 
     {
         "id":"008", 
         "name":"Wartortle",
         "type":["Water"],
-        "weakness":["Grass","Eletric"]
+        "weakness":["Grass","Eletric"],
+        "cardcolor":{
+            "border":["#7eb9e8","#2196F3"],
+            "bg":["#aebcdb","#6b8ebd"],
+            "info":["#cbe5ef","#abd6e2"]
+        }
     },
 
     {
         "id":"009", 
         "name":"Blastoise",
         "type":["Water"],
-        "weakness":["Grass","Eletric"]
+        "weakness":["Grass","Eletric"],
+        "cardcolor":{
+            "border":["#7eb9e8","#2196F3"],
+            "bg":["#8ca8ce","#6a86ae"],
+            "info":["#beb198","#c6b499"]
+        }
     }
 ]
