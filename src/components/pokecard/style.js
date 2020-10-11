@@ -1,5 +1,29 @@
 import styled from 'styled-components';
 
+export const header = styled.div`
+    width:348px;
+    height:35px;
+    margin:5px;
+`;
+
+export const colleft = styled.div`
+    float: left;
+    width: 25%;
+`;
+
+export const colright = styled.div`
+    float: right;
+    width: 25%;
+    text-align: right;
+
+`;
+
+export const colmiddle = styled.div`
+    display: inline-block;
+    text-align:center;
+    width: 50%;
+`;
+
 export const pokecontainer = styled.div`
     background: linear-gradient(to right, ${props => props.color1}, ${props => props.color2});
     width:350px;
@@ -26,16 +50,6 @@ export const pokename = styled.h1`
     font-size:19px;
     font-weight:lighter;
     padding:10px;
-`;
-
-export const poketype = styled.span`
-    background-color:black;
-    color:white;
-    padding:10px;
-    border-radius:5px;
-    width:90px;
-    text-align:center;
-    margin:7px;
 `;
 
 export const pokecontent = styled.div`

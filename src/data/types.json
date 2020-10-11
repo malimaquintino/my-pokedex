@@ -1,0 +1,61 @@
+[
+    {
+        "name":"Grass",
+        "bgcolor":"#9bcc50",
+        "fontcolor":"black"
+    },
+
+    {
+        "name":"Poison",
+        "bgcolor":"#b97fc9",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Eletric",
+        "bgcolor":"yellow",
+        "fontcolor":"black"
+    },
+
+    {
+        "name":"Water",
+        "bgcolor":"#59beec",
+        "fontcolor":"black"
+    },
+
+    {
+        "name":"Fire",
+        "bgcolor":"#f37b25",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Ground",
+        "bgcolor":"black",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Rock",
+        "bgcolor":"black",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Psychic",
+        "bgcolor":"black",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Flaying",
+        "bgcolor":"#c3eeff",
+        "fontcolor":"black"
+    },
+
+    {
+        "name":"Ice",
+        "bgcolor":"black",
+        "fontcolor":"white"
+    }
+]
