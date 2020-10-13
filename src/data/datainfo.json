@@ -293,9 +293,9 @@
         "type":["Eletric"],
         "weakness":["Ground"],
         "cardcolor":{
-            "border":["#7eb9e8","#2196F3"],
-            "bg":["#8ca8ce","#6a86ae"],
-            "info":["#beb198","#c6b499"]
+            "border":["#b1965e","#9c774a"],
+            "bg":["#f3d77b","#efb95c"],
+            "info":["#fbf1da","#ccac7a"]
         }
     },
 
@@ -305,9 +305,9 @@
         "type":["Eletric"],
         "weakness":["Ground"],
         "cardcolor":{
-            "border":["#7eb9e8","#2196F3"],
-            "bg":["#8ca8ce","#6a86ae"],
-            "info":["#beb198","#c6b499"]
+            "border":["#b1965e","#9c774a"],
+            "bg":["#f3d77b","#efb95c"],
+            "info":["#fbf1da","#ccac7a"]
         }
     }
 ]
