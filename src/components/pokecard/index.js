@@ -6,8 +6,7 @@ import Poketype from '../poketype/'
 function Pokecard({id, name, type, weakness, cardcolor}){
     let images = require.context('../../../public/imgs', true);
     let pokeImg = images(`./${id}.png`);
-    console.log(cardcolor.border[0]);
-    console.log(cardcolor.border[1]);
+
     // <S.colright>{type.map((item, i)=> <Poketype type={item}/>)}</S.colright>
     return (
         <>
@@ -16,7 +15,7 @@ function Pokecard({id, name, type, weakness, cardcolor}){
                 <S.header>
                     <S.colleft>Nº{id}</S.colleft> 
                     <S.colmiddle><strong>{name}</strong></S.colmiddle>
-                    <S.colright>{type.map((item, i)=> <Poketype type={item}/>)}</S.colright>
+                    <S.colright></S.colright>
                     
                 </S.header>
                 
@@ -27,8 +26,11 @@ function Pokecard({id, name, type, weakness, cardcolor}){
                 <S.pokecontent color1={cardcolor.info[0]} color2={cardcolor.info[1]}>  
 
                     <S.pokestats>
-                        <p>Power: 100</p>
-                        <p>Demage: 100</p>
+                        <p>Type:</p>
+                        {type.map((item, i)=> <Poketype key={i} type={item}/>)}
+
+                        <p>Weakness:</p>
+                        {weakness.map((item, i)=> <Poketype key={i} type={item}/>)}
                     </S.pokestats>
 
                 </S.pokecontent>

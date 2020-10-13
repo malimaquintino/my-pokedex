@@ -13,7 +13,7 @@
 
     {
         "name":"Eletric",
-        "bgcolor":"yellow",
+        "bgcolor":"#f3d81f",
         "fontcolor":"black"
     },
 
@@ -31,31 +31,50 @@
 
     {
         "name":"Ground",
-        "bgcolor":"black",
+        "bgcolor":"#ad8e1d",
         "fontcolor":"white"
     },
 
     {
         "name":"Rock",
-        "bgcolor":"black",
+        "bgcolor":"#8a5b17",
         "fontcolor":"white"
     },
 
     {
         "name":"Psychic",
-        "bgcolor":"black",
+        "bgcolor":"#122686",
         "fontcolor":"white"
     },
 
     {
-        "name":"Flaying",
+        "name":"Flying",
         "bgcolor":"#c3eeff",
         "fontcolor":"black"
     },
 
     {
         "name":"Ice",
+        "bgcolor":"#19abe2",
+        "fontcolor":"black"
+    },
+
+    {
+        "name":"Bug",
+        "bgcolor":"#23844e",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Normal",
+        "bgcolor":"black",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Fighting",
         "bgcolor":"black",
         "fontcolor":"white"
     }
+
 ]

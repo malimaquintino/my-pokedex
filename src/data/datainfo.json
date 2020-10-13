@@ -3,7 +3,7 @@
         "id":"001", 
         "name":"Bulbasaur",
         "type":["Grass", "Poison"],
-        "weakness":["Fire", "Psychic", "Flaying", "Ice"],
+        "weakness":["Fire", "Psychic", "Flying", "Ice"],
         "cardcolor":{
             "border":["#26903d","#2c7523"],
             "bg":["#61856b","#45725c"],
@@ -15,7 +15,7 @@
         "id":"002", 
         "name":"Ivysaur",
         "type":["Grass", "Poison"],
-        "weakness":["Fire", "Psychic", "Flaying", "Ice"],
+        "weakness":["Fire", "Psychic", "Flying", "Ice"],
         "cardcolor":{
             "border":["#26903d","#2c7523"],
             "bg":["#8ac1c6","#427481"],
@@ -27,7 +27,7 @@
         "id":"003", 
         "name":"Venusaur",
         "type":["Grass", "Poison"],
-        "weakness":["Fire", "Psychic", "Flaying", "Ice"],
+        "weakness":["Fire", "Psychic", "Flying", "Ice"],
         "cardcolor":{
             "border":["#26903d","#2c7523"],
             "bg":["#83b6b2","#3e7c81"],
@@ -62,7 +62,7 @@
     {
         "id":"006", 
         "name":"Charizard",
-        "type":["Fire", "Flaying"],
+        "type":["Fire", "Flying"],
         "weakness":["Water","Eletric", "Rock"],
         "cardcolor":{
             "border":["#e2453a","#c30b0b"],
@@ -100,6 +100,210 @@
         "name":"Blastoise",
         "type":["Water"],
         "weakness":["Grass","Eletric"],
+        "cardcolor":{
+            "border":["#7eb9e8","#2196F3"],
+            "bg":["#8ca8ce","#6a86ae"],
+            "info":["#beb198","#c6b499"]
+        }
+    },
+
+    {
+        "id":"010", 
+        "name":"Caterpie",
+        "type":["Bug"],
+        "weakness":["Fire","Flying", "Rock"],
+        "cardcolor":{
+            "border":["#abd6a1","#4CAF50"],
+            "bg":["#f7dd94","#85c775"],
+            "info":["#8BC34A","#8BC34A"]
+        }
+    },
+
+    {
+        "id":"011", 
+        "name":"Metapod",
+        "type":["Bug"],
+        "weakness":["Fire","Flying", "Rock"],
+        "cardcolor":{
+            "border":["#abd6a1","#4CAF50"],
+            "bg":["#f7dd94","#85c775"],
+            "info":["#8BC34A","#8BC34A"]
+        }
+    },
+
+    {
+        "id":"012", 
+        "name":"Butterfree",
+        "type":["Bug", "Flying"],
+        "weakness":["Fire","Flying", "Rock", "Ice", "Eletric"],
+        "cardcolor":{
+            "border":["#91bac8","#4b7387"],
+            "bg":["#878198","#5f567a"],
+            "info":["#ecf1f9","#b2bace"]
+        }
+    },
+
+    {
+        "id":"013", 
+        "name":"Weedle",
+        "type":["Bug", "Poison"],
+        "weakness":["Fire","Flying", "Rock", "Psychic"],
+        "cardcolor":{
+            "border":["#d48aad","#ab7086"],
+            "bg":["#c7a278","#aa7f53"],
+            "info":["#beb198","#c6b499"]
+        }
+    },
+
+    {
+        "id":"014", 
+        "name":"Kakuna",
+        "type":["Bug", "Poison"],
+        "weakness":["Fire","Flying", "Rock", "Psychic"],
+        "cardcolor":{
+            "border":["#f0d97d","#d5bc68"],
+            "bg":["#c0a55a","#a58748"],
+            "info":["#beb198","#c6b499"]
+        }
+    },
+
+    {
+        "id":"015", 
+        "name":"Beedrill",
+        "type":["Bug", "Poison"],
+        "weakness":["Fire","Flying", "Rock", "Psychic"],
+        "cardcolor":{
+            "border":["#f0d97d","#d5bc68"],
+            "bg":["#eacd5a","#46382a"],
+            "info":["#beb198","#c6b499"]
+        }
+    },
+
+    {
+        "id":"016", 
+        "name":"Pidgey",
+        "type":["Normal", "Flying"],
+        "weakness":["Eletric","Ice", "Rock"],
+        "cardcolor":{
+            "border":["#eee7b0","#beb28d"],
+            "bg":["#d5b0b7","#906e70"],
+            "info":["#ba9360","#764d2d"]
+        }
+    },
+
+    {
+        "id":"017", 
+        "name":"Pidgeotto",
+        "type":["Normal", "Flying"],
+        "weakness":["Eletric","Ice", "Rock"],
+        "cardcolor":{
+            "border":["#eee7b0","#beb28d"],
+            "bg":["#eeca8d","#da8570"],
+            "info":["#ba9360","#764d2d"]
+        }
+    },
+
+    {
+        "id":"018", 
+        "name":"Pidgeot",
+        "type":["Normal", "Flying"],
+        "weakness":["Eletric","Ice", "Rock"],
+        "cardcolor":{
+            "border":["#eee7b0","#beb28d"],
+            "bg":["#eeca8d","#da8570"],
+            "info":["#ba9360","#764d2d"]
+        }
+    },
+
+    {
+        "id":"019", 
+        "name":"Rattata",
+        "type":["Normal"],
+        "weakness":["Fighting"],
+        "cardcolor":{
+            "border":["#dfc2c8","#936c77"],
+            "bg":["#b5a0bf","#8a6e8e"],
+            "info":["#f0dfc9","#d8c7af"]
+        }
+    },
+
+    {
+        "id":"020", 
+        "name":"Raticate",
+        "type":["Normal"],
+        "weakness":["Fighting"],
+        "cardcolor":{
+            "border":["#dfc2c8","#936c77"],
+            "bg":["#bf8d4a","#92663a"],
+            "info":["#f0dfc9","#d8c7af"]
+        }
+    },
+
+    {
+        "id":"021", 
+        "name":"Spearow",
+        "type":["Normal", "Flying"],
+        "weakness":["Eletric", "Ice", "Rock"],
+        "cardcolor":{
+            "border":["#b3927a","#8f6048"],
+            "bg":["#d16e6a","#a14a52"],
+            "info":["#f4e3c8","#c6b499"]
+        }
+    },
+
+    {
+        "id":"022", 
+        "name":"Fearow",
+        "type":["Normal", "Flying"],
+        "weakness":["Eletric", "Ice", "Rock"],
+        "cardcolor":{
+            "border":["#b3927a","#8f6048"],
+            "bg":["#d16e6a","#a14a52"],
+            "info":["#f4e3c8","#c6b499"]
+        }
+    },
+
+    {
+        "id":"023", 
+        "name":"Ekans",
+        "type":["Poison"],
+        "weakness":["Psychic", "Ground"],
+        "cardcolor":{
+            "border":["#d0369c","#881f5e"],
+            "bg":["#b387af","#895f7d"],
+            "info":["#d69fcf","#c381bd"]
+        }
+    },
+
+    {
+        "id":"024", 
+        "name":"Arbok",
+        "type":["Poison"],
+        "weakness":["Psychic", "Ground"],
+        "cardcolor":{
+            "border":["#d0369c","#881f5e"],
+            "bg":["#a69bb5","#766a77"],
+            "info":["#d69fcf","#c381bd"]
+        }
+    },
+
+    {
+        "id":"025", 
+        "name":"Pikachu",
+        "type":["Eletric"],
+        "weakness":["Ground"],
+        "cardcolor":{
+            "border":["#7eb9e8","#2196F3"],
+            "bg":["#8ca8ce","#6a86ae"],
+            "info":["#beb198","#c6b499"]
+        }
+    },
+
+    {
+        "id":"026", 
+        "name":"Raichu",
+        "type":["Eletric"],
+        "weakness":["Ground"],
         "cardcolor":{
             "border":["#7eb9e8","#2196F3"],
             "bg":["#8ca8ce","#6a86ae"],

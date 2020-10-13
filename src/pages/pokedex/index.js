@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
 import datainfo from '../../data/datainfo.json'
 import Pokecard from '../../components/pokecard'
