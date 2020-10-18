@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14b9b092beaa194b4e1a8e9e66388a2f",
+    "revision": "919537508ae90ee882cbcc92bcb15520",
     "url": "/my-pokedex/index.html"
   },
   {
-    "revision": "999ed95b7367ceab8643",
+    "revision": "56f85ab751dbb9700c96",
     "url": "/my-pokedex/static/css/2.6414bb7b.chunk.css"
   },
   {
-    "revision": "2f8c57d9187d7e4c9ba9",
+    "revision": "614e4b50c7381b437125",
     "url": "/my-pokedex/static/css/main.104c1e4c.chunk.css"
   },
   {
-    "revision": "999ed95b7367ceab8643",
-    "url": "/my-pokedex/static/js/2.dde669a6.chunk.js"
+    "revision": "56f85ab751dbb9700c96",
+    "url": "/my-pokedex/static/js/2.bf99541d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/my-pokedex/static/js/2.dde669a6.chunk.js.LICENSE.txt"
+    "url": "/my-pokedex/static/js/2.bf99541d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f8c57d9187d7e4c9ba9",
-    "url": "/my-pokedex/static/js/main.ae307ee1.chunk.js"
+    "revision": "614e4b50c7381b437125",
+    "url": "/my-pokedex/static/js/main.482d789f.chunk.js"
   },
   {
     "revision": "f0c54395f4d2b6baf565",
@@ -146,5 +146,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9445ac8fb36bd9ceea8359d9fe1f2a50",
     "url": "/my-pokedex/static/media/030.9445ac8f.png"
+  },
+  {
+    "revision": "c36c75bf3f7af6fcbcef4aa5ddd82122",
+    "url": "/my-pokedex/static/media/pikachu-pixel.c36c75bf.png"
   }
 ]);
