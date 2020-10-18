@@ -9,14 +9,26 @@ function Pokedex (){
 
     return (
         <>
-            <h1>Pokédex</h1>
-            <div>
-                <input type="text" onChange={(e) => setSearch(e.target.value)} />
-            </div>
-            <div className="main-container">
-                { datainfo.filter(pokemon => pokemon.name.toLowerCase().includes(search.toLowerCase())).map((filteredPokemon,i) => (<Pokecard key={i}  {...filteredPokemon}/>) ) }                
-            </div>
             
+            <nav className="navbar navbar-dark bg-dark">
+                <div className="container-fluid">
+                    <span className="navbar-brand">Pokedex</span>
+                </div>
+            </nav>
+            
+
+            <div className="container">
+                <div className="row mt-3">
+                    <div className="col-12">
+                        <input type="text" onChange={(e) => setSearch(e.target.value)} className="form-control" placeholder="Seach..."/>
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    
+                        { datainfo.filter(pokemon => pokemon.name.toLowerCase().includes(search.toLowerCase())).map((filteredPokemon,i) => (<Pokecard key={i}  {...filteredPokemon}/>) ) }                
+                    
+                </div>
+            </div>
         </>
     );
 }

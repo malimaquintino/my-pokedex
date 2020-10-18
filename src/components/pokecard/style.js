@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const header = styled.div`
-    width:348px;
-    height:35px;
-    margin:5px;
+    width:19rem;
+    height:1.8rem;
+    margin:0.1rem;
 `;
 
 export const colleft = styled.div`
@@ -26,10 +26,10 @@ export const colmiddle = styled.div`
 
 export const pokecontainer = styled.div`
     background: linear-gradient(to right, ${props => props.color1}, ${props => props.color2});
-    width:350px;
+    width:19.5rem;
     height:auto;
-    margin:10%;
-    padding: 10px;
+    margin:0.5rem;
+    padding:0.5rem;
     border-radius:10px;
 `;
 
@@ -41,8 +41,8 @@ export const pokebackground = styled.div`
 `;
 
 export const pokeimage = styled.img`
-    width:200px;
-    height:200px;
+    width:13rem;
+    height:13rem;
 `;
 
 export const pokename = styled.h1`
@@ -54,7 +54,7 @@ export const pokename = styled.h1`
 
 export const pokecontent = styled.div`
     background: linear-gradient(to right, ${props => props.color1}, ${props => props.color2});
-	padding:10px;
+	padding:1rem;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 `;

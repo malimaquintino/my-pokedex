@@ -309,5 +309,53 @@
             "bg":["#f3d77b","#efb95c"],
             "info":["#fbf1da","#ccac7a"]
         }
+    },
+
+    {
+        "id":"027", 
+        "name":"Sandshrew",
+        "type":["Ground"],
+        "weakness":["Grass", "Ice","Water"],
+        "cardcolor":{
+            "border":["#b1965e","#9c774a"],
+            "bg":["#f3d77b","#efb95c"],
+            "info":["#fbf1da","#ccac7a"]
+        }
+    },
+
+    {
+        "id":"028", 
+        "name":"Sandslash",
+        "type":["Ground"],
+        "weakness":["Grass", "Ice","Water"],
+        "cardcolor":{
+            "border":["#b1965e","#9c774a"],
+            "bg":["#f3d77b","#efb95c"],
+            "info":["#fbf1da","#ccac7a"]
+        }
+    },
+
+    {
+        "id":"029", 
+        "name":"Nidoran",
+        "type":["Poison"],
+        "weakness":["Psychic", "Ground"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#cbd8ec","#8ea1c4"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+    },
+
+    {
+        "id":"030", 
+        "name":"Nidorina",
+        "type":["Ground"],
+        "weakness":["Grass", "Ice","Water"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
     }
 ]
