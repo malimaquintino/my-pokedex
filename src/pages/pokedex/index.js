@@ -20,7 +20,7 @@ function Pokedex (){
             <div className="container">
                 <div className="row mt-3">
                     <div className="col-12">
-                        <input type="text" onChange={(e) => setSearch(e.target.value)} className="form-control" placeholder="Seach..."/>
+                        <input type="text" onChange={(e) => setSearch(e.target.value)} className="form-control" placeholder="Search by pokemon name..."/>
                     </div>
                 </div>
                 <div className="row mt-3">
