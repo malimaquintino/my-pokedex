@@ -27,11 +27,19 @@ function Pokecard({id, name, type, weakness, cardcolor}){
                     <S.pokecontent color1={cardcolor.info[0]} color2={cardcolor.info[1]}>  
 
                         <S.pokestats>
-                            <p>Type:</p>
-                            {type.map((item, i)=> <Poketype key={i} type={item}/>)}
+                            <div className="row"><span className="ml-2">Type:</span></div>
+                            <div className="row">
+                                <div className="ml-2">
+                                    {type.map((item, i)=> <Poketype key={i} type={item}/>)}
+                                </div>
+                            </div>
 
-                            <p>Weakness:</p>
-                            {weakness.map((item, i)=> <Poketype key={i} type={item}/>)}
+                            <div className="row"><span className="ml-2">Weakness:</span></div>
+                            <div className="row">
+                                <div className="ml-2">
+                                    {weakness.map((item, i)=> <Poketype key={i} type={item}/>)}
+                                </div>
+                            </div>
                         </S.pokestats>
 
                     </S.pokecontent>
