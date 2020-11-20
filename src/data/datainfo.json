@@ -1,7 +1,15 @@
 [
     {
-        "id":"001", 
-        "name":"Bulbasaur",
+        "id":"001",
+        "name": "Bulbasaur",
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 45,
+        "generation": 1,
+        "legendary": "False",
         "type":["Grass", "Poison"],
         "weakness":["Fire", "Psychic", "Flying", "Ice"],
         "cardcolor":{
@@ -9,11 +17,19 @@
             "bg":["#61856b","#45725c"],
             "info":["#6b907d","#5e9066"]
         }
-    }, 
+    },
 
     {
-        "id":"002", 
-        "name":"Ivysaur",
+        "id":"002",
+        "name": "Ivysaur",
+        "hp": 60,
+        "attack": 62,
+        "defense": 63,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 60,
+        "generation": 1,
+        "legendary": "False",
         "type":["Grass", "Poison"],
         "weakness":["Fire", "Psychic", "Flying", "Ice"],
         "cardcolor":{
@@ -24,8 +40,16 @@
     },
 
     {
-        "id":"003", 
-        "name":"Venusaur",
+        "id":"003",
+        "name": "Venusaur",
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 80,
+        "generation": 1,
+        "legendary": "False",
         "type":["Grass", "Poison"],
         "weakness":["Fire", "Psychic", "Flying", "Ice"],
         "cardcolor":{
@@ -36,8 +60,16 @@
     },
 
     {
-        "id":"004", 
-        "name":"Charmander",
+        "id":"004",
+        "name": "Charmander",
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "sp_atk": 60,
+        "sp_def": 50,
+        "speed": 65,
+        "generation": 1,
+        "legendary": "False",
         "type":["Fire"],
         "weakness":["Water","Ground", "Rock"],
         "cardcolor":{
@@ -48,20 +80,36 @@
     },
 
     {
-        "id":"005", 
-        "name":"Charmeleon",
+        "id":"005",
+        "name": "Charmeleon",
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "sp_atk": 80,
+        "sp_def": 65,
+        "speed": 80,
+        "generation": 1,
+        "legendary": "False",
         "type":["Fire"],
         "weakness":["Water","Ground", "Rock"],
         "cardcolor":{
             "border":["#e2453a","#c30b0b"],
-            "bg":["#da7564","#bf4d3d"],
+            "bg":["#e4a195","#69271e"],
             "info":["#e6cab8","#c2a596"]
         }
     },
 
     {
-        "id":"006", 
-        "name":"Charizard",
+        "id":"006",
+        "name": "Charizard",
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "sp_atk": 109,
+        "sp_def": 85,
+        "speed": 100,
+        "generation": 1,
+        "legendary": "False",
         "type":["Fire", "Flying"],
         "weakness":["Water","Eletric", "Rock"],
         "cardcolor":{
@@ -72,8 +120,16 @@
     },
 
     {
-        "id":"007", 
-        "name":"Squirtle",
+        "id":"007",
+        "name": "Squirtle",
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "sp_atk": 50,
+        "sp_def": 64,
+        "speed": 43,
+        "generation": 1,
+        "legendary": "False",
         "type":["Water"],
         "weakness":["Grass","Eletric"],
         "cardcolor":{
@@ -84,8 +140,16 @@
     },
 
     {
-        "id":"008", 
-        "name":"Wartortle",
+        "id":"008",
+        "name": "Wartortle",
+        "hp": 59,
+        "attack": 63,
+        "defense": 80,
+        "sp_atk": 65,
+        "sp_def": 80,
+        "speed": 58,
+        "generation": 1,
+        "legendary": "False",
         "type":["Water"],
         "weakness":["Grass","Eletric"],
         "cardcolor":{
@@ -96,8 +160,16 @@
     },
 
     {
-        "id":"009", 
-        "name":"Blastoise",
+        "id":"009",
+        "name": "Blastoise",
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "sp_atk": 85,
+        "sp_def": 105,
+        "speed": 78,
+        "generation": 1,
+        "legendary": "False",
         "type":["Water"],
         "weakness":["Grass","Eletric"],
         "cardcolor":{
@@ -108,8 +180,36 @@
     },
 
     {
-        "id":"010", 
-        "name":"Caterpie",
+        "id":"010",
+        "name": "Caterpie",
+        "hp": 45,
+        "attack": 30,
+        "defense": 35,
+        "sp_atk": 20,
+        "sp_def": 20,
+        "speed": 45,
+        "generation": 1,
+        "legendary": "False",
+         "type":["Bug"],
+        "weakness":["Fire","Flying", "Rock"],
+        "cardcolor":{
+            "border":["#abd6a1","#4CAF50"],
+            "bg":["#f7dd94","#85c775"],
+            "info":["#8BC34A","#8BC34A"]
+        }
+    },
+
+    {
+        "id":"011",
+        "name": "Metapod",
+        "hp": 50,
+        "attack": 20,
+        "defense": 55,
+        "sp_atk": 25,
+        "sp_def": 25,
+        "speed": 30,
+        "generation": 1,
+        "legendary": "False",
         "type":["Bug"],
         "weakness":["Fire","Flying", "Rock"],
         "cardcolor":{
@@ -120,20 +220,16 @@
     },
 
     {
-        "id":"011", 
-        "name":"Metapod",
-        "type":["Bug"],
-        "weakness":["Fire","Flying", "Rock"],
-        "cardcolor":{
-            "border":["#abd6a1","#4CAF50"],
-            "bg":["#f7dd94","#85c775"],
-            "info":["#8BC34A","#8BC34A"]
-        }
-    },
-
-    {
-        "id":"012", 
-        "name":"Butterfree",
+        "id":"012",
+        "name": "Butterfree",
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "sp_atk": 90,
+        "sp_def": 80,
+        "speed": 70,
+        "generation": 1,
+        "legendary": "False",
         "type":["Bug", "Flying"],
         "weakness":["Fire","Flying", "Rock", "Ice", "Eletric"],
         "cardcolor":{
@@ -144,8 +240,16 @@
     },
 
     {
-        "id":"013", 
-        "name":"Weedle",
+        "id":"013",
+        "name": "Weedle",
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "sp_atk": 20,
+        "sp_def": 20,
+        "speed": 50,
+        "generation": 1,
+        "legendary": "False",
         "type":["Bug", "Poison"],
         "weakness":["Fire","Flying", "Rock", "Psychic"],
         "cardcolor":{
@@ -156,8 +260,16 @@
     },
 
     {
-        "id":"014", 
-        "name":"Kakuna",
+        "id":"014",
+        "name": "Kakuna",
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "sp_atk": 25,
+        "sp_def": 25,
+        "speed": 35,
+        "generation": 1,
+        "legendary": "False",
         "type":["Bug", "Poison"],
         "weakness":["Fire","Flying", "Rock", "Psychic"],
         "cardcolor":{
@@ -168,8 +280,16 @@
     },
 
     {
-        "id":"015", 
-        "name":"Beedrill",
+        "id":"015",
+        "name": "Beedrill",
+        "hp": 65,
+        "attack": 90,
+        "defense": 40,
+        "sp_atk": 45,
+        "sp_def": 80,
+        "speed": 75,
+        "generation": 1,
+        "legendary": "False",
         "type":["Bug", "Poison"],
         "weakness":["Fire","Flying", "Rock", "Psychic"],
         "cardcolor":{
@@ -180,8 +300,16 @@
     },
 
     {
-        "id":"016", 
-        "name":"Pidgey",
+        "id":"016",
+        "name": "Pidgey",
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "sp_atk": 35,
+        "sp_def": 35,
+        "speed": 56,
+        "generation": 1,
+        "legendary": "False",
         "type":["Normal", "Flying"],
         "weakness":["Eletric","Ice", "Rock"],
         "cardcolor":{
@@ -192,8 +320,16 @@
     },
 
     {
-        "id":"017", 
-        "name":"Pidgeotto",
+        "id":"017",
+        "name": "Pidgeotto",
+        "hp": 63,
+        "attack": 60,
+        "defense": 55,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 71,
+        "generation": 1,
+        "legendary": "False",
         "type":["Normal", "Flying"],
         "weakness":["Eletric","Ice", "Rock"],
         "cardcolor":{
@@ -204,8 +340,16 @@
     },
 
     {
-        "id":"018", 
-        "name":"Pidgeot",
+        "id":"018",
+        "name": "Pidgeot",
+        "hp": 83,
+        "attack": 80,
+        "defense": 75,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 101,
+        "generation": 1,
+        "legendary": "False",
         "type":["Normal", "Flying"],
         "weakness":["Eletric","Ice", "Rock"],
         "cardcolor":{
@@ -216,8 +360,16 @@
     },
 
     {
-        "id":"019", 
-        "name":"Rattata",
+        "id":"019",
+        "name": "Rattata",
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "sp_atk": 25,
+        "sp_def": 35,
+        "speed": 72,
+        "generation": 1,
+        "legendary": "False",
         "type":["Normal"],
         "weakness":["Fighting"],
         "cardcolor":{
@@ -228,8 +380,16 @@
     },
 
     {
-        "id":"020", 
-        "name":"Raticate",
+        "id":"020",
+        "name": "Raticate",
+        "hp": 55,
+        "attack": 81,
+        "defense": 60,
+        "sp_atk": 50,
+        "sp_def": 70,
+        "speed": 97,
+        "generation": 1,
+        "legendary": "False",
         "type":["Normal"],
         "weakness":["Fighting"],
         "cardcolor":{
@@ -240,8 +400,16 @@
     },
 
     {
-        "id":"021", 
-        "name":"Spearow",
+        "id":"021",
+        "name": "Spearow",
+        "hp": 40,
+        "attack": 60,
+        "defense": 30,
+        "sp_atk": 31,
+        "sp_def": 31,
+        "speed": 70,
+        "generation": 1,
+        "legendary": "False",
         "type":["Normal", "Flying"],
         "weakness":["Eletric", "Ice", "Rock"],
         "cardcolor":{
@@ -252,8 +420,16 @@
     },
 
     {
-        "id":"022", 
-        "name":"Fearow",
+        "id":"022",
+        "name": "Fearow",
+        "hp": 65,
+        "attack": 90,
+        "defense": 65,
+        "sp_atk": 61,
+        "sp_def": 61,
+        "speed": 100,
+        "generation": 1,
+        "legendary": "False",
         "type":["Normal", "Flying"],
         "weakness":["Eletric", "Ice", "Rock"],
         "cardcolor":{
@@ -264,8 +440,16 @@
     },
 
     {
-        "id":"023", 
-        "name":"Ekans",
+        "id":"023",
+        "name": "Ekans",
+        "hp": 35,
+        "attack": 60,
+        "defense": 44,
+        "sp_atk": 40,
+        "sp_def": 54,
+        "speed": 55,
+        "generation": 1,
+        "legendary": "False",
         "type":["Poison"],
         "weakness":["Psychic", "Ground"],
         "cardcolor":{
@@ -276,8 +460,16 @@
     },
 
     {
-        "id":"024", 
-        "name":"Arbok",
+        "id":"024",
+        "name": "Arbok",
+        "hp": 60,
+        "attack": 85,
+        "defense": 69,
+        "sp_atk": 65,
+        "sp_def": 79,
+        "speed": 80,
+        "generation": 1,
+        "legendary": "False",
         "type":["Poison"],
         "weakness":["Psychic", "Ground"],
         "cardcolor":{
@@ -288,32 +480,56 @@
     },
 
     {
-        "id":"025", 
-        "name":"Pikachu",
+        "id":"025",
+        "name": "Pikachu",
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 90,
+        "generation": 1,
+        "legendary": "False",
         "type":["Eletric"],
         "weakness":["Ground"],
         "cardcolor":{
-            "border":["#b1965e","#9c774a"],
+            "border":["#6f6f6e","#2b2a28"],
             "bg":["#f3d77b","#efb95c"],
             "info":["#fbf1da","#ccac7a"]
         }
     },
 
     {
-        "id":"026", 
-        "name":"Raichu",
+        "id":"026",
+        "name": "Raichu",
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "sp_atk": 90,
+        "sp_def": 80,
+        "speed": 110,
+        "generation": 1,
+        "legendary": "False",
         "type":["Eletric"],
         "weakness":["Ground"],
         "cardcolor":{
-            "border":["#b1965e","#9c774a"],
+            "border":["#6f6f6e","#2b2a28"],
             "bg":["#f3d77b","#efb95c"],
             "info":["#fbf1da","#ccac7a"]
         }
     },
 
     {
-        "id":"027", 
-        "name":"Sandshrew",
+        "id":"027",
+        "name": "Sandshrew",
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "sp_atk": 20,
+        "sp_def": 30,
+        "speed": 40,
+        "generation": 1,
+        "legendary": "False",
         "type":["Ground"],
         "weakness":["Grass", "Ice","Water"],
         "cardcolor":{
@@ -324,8 +540,16 @@
     },
 
     {
-        "id":"028", 
-        "name":"Sandslash",
+        "id":"028",
+        "name": "Sandslash",
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 65,
+        "generation": 1,
+        "legendary": "False",
         "type":["Ground"],
         "weakness":["Grass", "Ice","Water"],
         "cardcolor":{
@@ -336,8 +560,16 @@
     },
 
     {
-        "id":"029", 
-        "name":"Nidoran",
+        "id":"029",
+        "name": "Nidoran♀",
+        "hp": 55,
+        "attack": 47,
+        "defense": 52,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 41,
+        "generation": 1,
+        "legendary": "False",
         "type":["Poison"],
         "weakness":["Psychic", "Ground"],
         "cardcolor":{
@@ -348,8 +580,16 @@
     },
 
     {
-        "id":"030", 
-        "name":"Nidorina",
+        "id":"030",
+        "name": "Nidorina",
+        "hp": 70,
+        "attack": 62,
+        "defense": 67,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 56,
+        "generation": 1,
+        "legendary": "False",
         "type":["Ground"],
         "weakness":["Grass", "Ice","Water"],
         "cardcolor":{

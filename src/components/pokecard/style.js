@@ -9,19 +9,20 @@ export const header = styled.div`
 export const colleft = styled.div`
     float: left;
     width: 25%;
+    color:white;
 `;
 
 export const colright = styled.div`
     float: right;
     width: 25%;
     text-align: right;
-
 `;
 
 export const colmiddle = styled.div`
     display: inline-block;
     text-align:center;
     width: 50%;
+    color:white;
 `;
 
 export const pokecontainer = styled.div`
@@ -43,24 +44,19 @@ export const pokebackground = styled.div`
     border-bottom-left-radius: 10px;
 `;
 
+export const pokebackgroundback = styled.div`
+    height:19.5rem;
+    background: linear-gradient(to right, ${props => props.color1}, ${props => props.color2});
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+`;
+
 export const pokeimage = styled.img`
     margin-top:3rem;
     width:13rem;
     height:13rem;
-`;
-
-export const pokename = styled.h1`
-    text-align:center;
-    font-size:19px;
-    font-weight:lighter;
-    padding:10px;
-`;
-
-export const pokecontent = styled.div`
-    background: linear-gradient(to right, ${props => props.color1}, ${props => props.color2});
-	padding:1rem;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
 `;
 
 export const pokestats = styled.div`
