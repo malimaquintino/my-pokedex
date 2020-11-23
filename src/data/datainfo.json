@@ -597,5 +597,195 @@
             "bg":["#c1d8dd","#95bdc7"],
             "info":["#8d9fc1","#6d9fc2"]
         }
-    }
+    },
+    {
+        "id": "031",
+        "name": "Nidoqueen",
+        "hp": 90,
+        "attack": 92,
+        "defense": 87,
+        "sp_atk": 75,
+        "sp_def": 85,
+        "speed": 76,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Poison", "Ground"],
+        "weakness":["Water", "Psychic", "Ice","Ground"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "032",
+        "name": "Nidoran♂",
+        "hp": 46,
+        "attack": 57,
+        "defense": 40,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 50,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Poison"],
+        "weakness":["Psychic", "Ground"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "033",
+        "name": "Nidorino",
+        "hp": 61,
+        "attack": 72,
+        "defense": 57,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 65,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Poison"],
+        "weakness":["Psychic","Ground"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "034",
+        "name": "Nidoking",
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 85,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Poison", "Ground"],
+        "weakness":["Water", "Psychic", "Ice","Ground"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "035",
+        "name": "Clefairy",
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "sp_atk": 60,
+        "sp_def": 65,
+        "speed": 35,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Fairy"],
+        "weakness":["Steel", "Poison"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "036",
+        "name": "Clefable",
+        "hp": 95,
+        "attack": 70,
+        "defense": 73,
+        "sp_atk": 95,
+        "sp_def": 90,
+        "speed": 60,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Fairy"],
+        "weakness":["Steel", "Poison"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "037",
+        "name": "Vulpix",
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "sp_atk": 50,
+        "sp_def": 65,
+        "speed": 65,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Fire"],
+        "weakness":["Water", "Ground", "Rock"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "038",
+        "name": "Ninetales",
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "sp_atk": 81,
+        "sp_def": 100,
+        "speed": 100,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Fire"],
+        "weakness":["Water", "Ground", "Rock"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "039",
+        "name": "Jigglypuff",
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "sp_atk": 45,
+        "sp_def": 25,
+        "speed": 20,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Normal", "Fairy"],
+        "weakness":["Steel", "Poison"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      },
+      {
+        "id": "040",
+        "name": "Wigglytuff",
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "sp_atk": 85,
+        "sp_def": 50,
+        "speed": 45,
+        "generation": 1,
+        "legendary": "False",
+        "type":["Normal", "Fairy"],
+        "weakness":["Steel", "Poison"],
+        "cardcolor":{
+            "border":["#7d84b4","#5c629b"],
+            "bg":["#c1d8dd","#95bdc7"],
+            "info":["#8d9fc1","#6d9fc2"]
+        }
+      }
 ]

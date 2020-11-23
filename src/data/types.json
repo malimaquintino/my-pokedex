@@ -75,6 +75,18 @@
         "name":"Fighting",
         "bgcolor":"#e46262",
         "fontcolor":"white"
+    },
+
+    {
+        "name":"Fairy",
+        "bgcolor":"pink",
+        "fontcolor":"white"
+    },
+
+    {
+        "name":"Steel",
+        "bgcolor":"Grey",
+        "fontcolor":"white"
     }
 
 ]
